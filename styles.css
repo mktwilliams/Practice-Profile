@@ -1,0 +1,23 @@
+/* Change the color of all list items inside an unordered list */
+ul li {
+ color: orange;
+}
+
+
+/* Remove the text decoration from navigation links, and change their color when hovered */
+nav a:hover {
+ color: red;
+  text-decoration: none;
+}
+
+
+/* Create visited and hover styles for all links inside 'main' */
+
+main a:hover {
+  color: red;
+}
+
+main a:visited {
+  color:purple;
+  font-weight: bold;
+}
